@@ -3570,7 +3570,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "EXLROM for the Exelvision \nEXL100 & Exeltel\nBrett Hallen, Mar 2025\nwww.youtube.com/@Brfff"
+	(gr_text "EXLROM for the Exelvision \nEXL100 & Exeltel\nBrett Hallen, Mar 2025\nPort Macquarie, Australia\nwww.youtube.com/@Brfff"
 		(at 70 52 0)
 		(layer "B.SilkS")
 		(uuid "a67c7b89-81ac-48fc-9aac-09d5941aa87f")
