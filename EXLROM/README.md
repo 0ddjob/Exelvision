@@ -1,7 +1,7 @@
 # EXLROM Multi-ROM Cartridge
 ## Summary
 The Exelvision EXL100 (and Exeltel) cartridge port pinout is below - the B-side face up and A-side face down when the cartridge is inserted.<br>
-The pinout was determined from the 32KByte Tennis cartridge.  The A1 pin was not connected in this cartridge but is connected to pin 40 of the TAL004 gate array ... perhaps a 2nd ROM select line?
+The pinout was determined from the 32KByte Tennis cartridge.  The A1 pin was not connected in this cartridge but is connected to pin 40 of the TAL004 gate array ... perhaps a 2nd ROM select line?<br>
 ```
 A1 = N/C    B1 = ROM select
 A2 = A13    B2 = A14
@@ -18,6 +18,12 @@ A12 = D5    B12 = D4
 A13 = D3    B13 = D2
 A14 = D1    B14 = D0
 ```
+## [Simple Single ROM Version](/EXLROM/EXLROM_256Kbit/)
+This version takes a 32KByte 27C256 EPROM that will fit a single 32KByte ROM.  The smaller 8KByte and 16KByte ROMs will just have empty space.<br>
+
+## [Multi-ROM](/EXLROM/EXLROM_4Mbit/)
+This version should fit all known Exelvision ROMs.<br>
+
 ## Bank Selection
 Using a 4MBit EPROM allows us to fit 16 32KByte ROMs selectable via four dip switches that determine the value of the A15 to A18 address lines.  A single ROM can be created (to be done) by concatenating 32KByte ROMs into one file.  Smaller ROMs (8KByte and 16KByte) can be duplcated (i.e. four concatenated copies of the 8KByte ROM) to bring their size up to 32KBytes.
 ```
