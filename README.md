@@ -5,3 +5,6 @@ The EXL100 could accept ROM cartridges from 8KByte to 32KByte in size, including
 
 ![3D image of EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit_3D.png)
 
+## Partial TAL004 Gate Array Pinout
+From cartridge pinout investigation ... <br>
+![TAL004 partial pinout](/Images/EXL100_TAL004_partial_pintout.jpg)
