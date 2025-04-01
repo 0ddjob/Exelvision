@@ -17,3 +17,5 @@ A12 = D5    B12 = D4
 A13 = D3    B13 = D2
 A14 = D1    B14 = D0
 ```
+![Cartridge B-side](/Images/EXL100_Cartridge_B.jpg)
+![Cartridge A-side](/Images/EXL100_Cartridge_A.jpg)
