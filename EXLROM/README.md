@@ -18,6 +18,29 @@ A12 = D5    B12 = D4
 A13 = D3    B13 = D2
 A14 = D1    B14 = D0
 ```
+## Bank Selection
+Using a 4MBit EPROM allows us to fit 16 32KByte ROMs selectable via four dip switches that determine the value of the A15 to A18 address lines.  A single ROM can be created (to be done) by concatenating 32KByte ROMs into one file.  Smaller ROMs (8KByte and 16KByte) can be duplcated (i.e. four concatenated copies of the 8KByte ROM) to bring their size up to 32KBytes.
+```
+AAAA 
+1111
+8765 Bank  ROM Address Range
+0000    0  0x00000-0x07FFF
+0001    1  0x08000-0x0FFFF
+0010    2  0x10000-0x17FFF
+0011    3  0x18000-0x1FFFF
+0100    4  0x20000-0x27FFF
+0101    5  0x28000-0x2FFFF
+0110    6  0x30000-0x37FFF
+0111    7  0x38000-0x3FFFF
+1000    8  0x40000-0x47FFF
+1001    9  0x48000-0x4FFFF
+1010   10  0x50000-0x57FFF
+1011   11  0x58000-0x5FFFF
+1100   12  0x60000-0x67FFF
+1101   13  0x68000-0x6FFFF
+1110   14  0x70000-0x77FFF
+1111   15  0x78000-0x7FFFF
+```
 ## Cartridge Pinout
 The B-side that faces up when inserted.  Pins are numbered B1 on the right to B14 on left.<br>
 ![Cartridge B-side](/Images/EXL100_Cartridge_B.jpg)
