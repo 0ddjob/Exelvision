@@ -30,6 +30,7 @@ Using a 4MBit EPROM allows us to fit 16 32KByte ROMs selectable via four dip swi
 AAAA 
 1111
 8765 Bank  ROM Address Range
+---- ----  -----------------
 0000    0  0x00000-0x07FFF
 0001    1  0x08000-0x0FFFF
 0010    2  0x10000-0x17FFF
