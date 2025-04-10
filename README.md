@@ -23,7 +23,7 @@ I've designed two versions: a simple 256kbit version that will hold a single 32K
 - 1-Apr-2025:  Pending test fabrication 
 - 10-Apr-2025: Test PCBs arrived & verified! Refer YouTube video.
 
-![3D image of EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit_3D.png)
+![EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit.png)
 
 ## Partial TAL004 Gate Array Pinout
 From cartridge pinout investigation ... <br>
