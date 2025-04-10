@@ -12,9 +12,10 @@ It has the following main ICs:
 The ROM cartridge connector is a BURNDY PWBH14DER1A-1 which I can't find any info on - it's a 2x14 design.<br>
 
 ## YouTube Videos
-- [Exelvision EXL100: Part 1 (First Look)](https://youtu.be/5-ew3FQ9LnI)
-- [Exelvision EXL100: Part 2 (Cartridge Pinout)](https://youtu.be/ktFMq2L3tBw)
+- [Part 1: First Look](https://youtu.be/5-ew3FQ9LnI)
+- [Part 2: Cartridge Pinout](https://youtu.be/ktFMq2L3tBw)
 - [Simple Kicad For Simple Vintage Computer Hobbyists: Part 4 (ROM Cartridge Design)](https://youtu.be/4mT13-wXdjI)
+- [Part 3: DIY Cartridges](https://youtu.be/ecWkOvze2gc)
 
 ## [EXLROM - Multi-ROM cartridge](/EXLROM/)
 The EXL100 could accept ROM cartridges from 8KByte to 32KByte in size, including BASIC.  By using a 4Mbit ROM (27C040) we can fit all known ROMs onto one cartridge.  How exciting.<br>
@@ -23,7 +24,7 @@ I've designed two versions: a simple 256kbit version that will hold a single 32K
 - 1-Apr-2025:  Pending test fabrication 
 - 10-Apr-2025: Test PCBs arrived & verified! Refer YouTube video.
 
-![3D image of EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit_3D.png)
+![EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit.png)
 
 ## Partial TAL004 Gate Array Pinout
 From cartridge pinout investigation ... <br>
