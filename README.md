@@ -14,7 +14,7 @@ The ROM cartridge connector is a BURNDY PWBH14DER1A-1 which I can't find any inf
 ## YouTube Videos
 - [Exelvision EXL100: Part 1 (First Look)](https://youtu.be/5-ew3FQ9LnI)
 - [Exelvision EXL100: Part 2 (Cartridge Pinout)](https://youtu.be/ktFMq2L3tBw)
-- [Simple Kicad For Simple Vintage Computer Hobbyists: Part 4 (ROM Cartridge Design)](https://youtu.be/U81MPNWrCRY)
+- [Simple Kicad For Simple Vintage Computer Hobbyists: Part 4 (ROM Cartridge Design)](https://youtu.be/4mT13-wXdjI)
 
 ## [EXLROM - Multi-ROM cartridge](/EXLROM/)
 The EXL100 could accept ROM cartridges from 8KByte to 32KByte in size, including BASIC.  By using a 4Mbit ROM (27C040) we can fit all known ROMs onto one cartridge.  How exciting.<br>
