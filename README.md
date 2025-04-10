@@ -20,7 +20,8 @@ The ROM cartridge connector is a BURNDY PWBH14DER1A-1 which I can't find any inf
 The EXL100 could accept ROM cartridges from 8KByte to 32KByte in size, including BASIC.  By using a 4Mbit ROM (27C040) we can fit all known ROMs onto one cartridge.  How exciting.<br>
 I've designed two versions: a simple 256kbit version that will hold a single 32KByte ROM (like the olden days) and the 4Mbit version that will hold up to 16 32KByte ROMs.<br>
 ### Status
-- 1-Apr-2025: Pending test fabrication 
+- 1-Apr-2025:  Pending test fabrication 
+- 10-Apr-2025: Test PCBs arrived & verified! Refer YouTube video.
 
 ![3D image of EXLROM 4MBit cartridge](/Images/EXLROM_4Mbit_3D.png)
 

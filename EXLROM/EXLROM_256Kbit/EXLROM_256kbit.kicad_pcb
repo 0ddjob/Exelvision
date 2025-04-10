@@ -1334,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 1.25 2.25 0)
 			(layer "F.SilkS")
 			(uuid "f137180d-4c8e-4c59-ad2d-47edff06e472")
