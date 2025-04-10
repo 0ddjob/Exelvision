@@ -1,0 +1,6 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+C1,1,100nF,C_Disc_D3.0mm_W2.0mm_P2.50mm,,,,tht,Unpolarized capacitor
+J1,1,EXL100 Cartridge,EXL100_Cartridge,,,,tht,
+"R1, R2, R3, R4",4,10KΩ,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,,tht,Resistor
+SW1,1,SW_DIP_x04,SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm,,,,tht,"4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+U1,1,27C040,DIP-32_W15.24mm_Socket,,,,tht,OTP EPROM 4 MiBit (512 Ki x 8)
