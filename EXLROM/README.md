@@ -25,7 +25,7 @@ This version takes a 32KByte 27C256 EPROM that will fit a single 32KByte ROM.  T
 This version should fit all known Exelvision ROMs.<br>
 
 ## Bank Selection
-Using a 4MBit EPROM allows us to fit 16 32KByte ROMs selectable via four dip switches that determine the value of the A15 to A18 address lines.  A single ROM can be created (to be done) by concatenating 32KByte ROMs into one file.  Smaller ROMs (8KByte and 16KByte) can be duplcated (i.e. four concatenated copies of the 8KByte ROM) to bring their size up to 32KBytes.
+Using a 4MBit EPROM allows us to fit 16 32KByte ROMs selectable via four dip switches that determine the value of the A15 to A18 address lines.  A single ROM can be created by concatenating 32KByte ROMs into one file - very simply done in Linux or Windows via command line.  Smaller ROMs (8KByte and 16KByte) can be duplcated (i.e. four concatenated copies of the 8KByte ROM) to bring their size up to 32KBytes.
 ```
 AAAA 
 1111
